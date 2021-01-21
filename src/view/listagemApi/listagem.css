@@ -1,0 +1,43 @@
+.card{
+    width: 16rem;
+    max-height: 400px;
+    min-height: 250px;
+    display: inline-block;
+    margin: 5px 5px;
+}
+.listagemH5{
+    color:#2f2c3d;
+    padding: 2px 4px;
+    text-align: center;
+    margin: 1em 0em;
+
+}
+.all-cards{
+    justify-content: center;
+}
+.row.col-md-9{
+    border-left: 1px solid #2f2c3d;
+    float: right;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card {
+        width: 20rem;}
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 15rem;}
+}
+@media only screen and (max-width: 760px) {
+    .row.col-md-9 {
+        border-left: none;
+        float: none;
+        margin:0px!important
+    }
+    .card {
+        width: 8rem;}
+    .all-cards {
+        justify-content: center;
+        text-align: center;
+    }
+}

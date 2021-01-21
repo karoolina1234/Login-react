@@ -1,0 +1,125 @@
+
+.abas-login{
+    justify-content: center;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color:black
+}
+.title-img-login{
+    color: #FFF;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left:10%;
+}
+.h3Cadastro{
+    color: #2f2c3d;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1em;
+  
+}
+.mensagens-login{
+    margin-top: 10px;
+    color:#2f2c3d;
+    text-align: center;
+}
+.sppiner-cadastro{
+    color:#2f2c3d;
+}
+.conteudo{
+    padding: 20px;
+}
+.footer-login{
+    position: absolute;
+    bottom: 0;
+}
+.nav-item .active{
+    background-color: #2f2c3d;
+    color: #FFF;
+}
+.container.col-md-6{
+    float: right;
+    background-color: #FFF;
+}
+.text-center.mt-5.title-login{
+    color: #FFF;
+    font-weight: bold;
+}
+.img-left{
+    min-height: 100%;
+    float: left;
+}
+.btn:hover{
+    color: #FFF;
+    background-color: #2f2c3d;
+}
+.btn{
+    color:#2f2c3d;
+    margin-top: 2em;
+    text-align: center;
+}
+.login-btn{
+    text-align: center;
+}
+input{
+    margin: 5px 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .img-left.col-md-6{
+        float: none;
+        display: block;
+        max-width: 100%;
+    min-width: 100%;
+    }
+
+    img{
+        height: 300px!important;
+        width: 100%!important;
+        display: block;
+    }
+    .title-img-login {
+        top: 14%;
+        left: 40%;
+    }
+    .container.col-md-6 {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .col-md-9 {
+        flex: 0 0 auto;
+        width: 70%!important;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .title-img-login {
+        top: 18%;
+        left: 29%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    img{
+        height: 200px!important;}
+
+        .title-img-login {
+            top: 18%;
+            left: 24%;
+        }
+
+}
+@media only screen and (max-width: 320px) {
+    .title-img-login {
+        top: 18%;
+        left: 18%;
+    }
+
+}

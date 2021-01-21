@@ -1,0 +1,33 @@
+.sidebar-sticky {
+   
+    min-width: 220px;
+    min-height: 600px;
+    float: left;
+    padding-top: 1em;
+}
+.nav-link {
+    color: #2f2c3d;
+    margin:2px 0px;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 760px) {
+.sidebar-sticky {
+    min-width: 100%;
+    min-height: auto;
+    float: left;
+    padding-top: 1em;
+    border-bottom: 1px solid #2f2c3d;
+}
+.conteudo-home{
+    float: none;
+    border:0px;
+    margin-top: 10em;
+}
+.col-md-9 {
+    flex: 0 0 auto;
+    width: 100%!important;
+}
+}

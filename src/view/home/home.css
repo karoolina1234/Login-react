@@ -1,0 +1,12 @@
+.conteudo-home{
+    float: right;
+    text-align: center;
+    border-left: 1px solid #2f2c3d;
+    min-height: 600px;
+}
+h4{
+    text-align: center;
+}
+.tituloInial{
+    margin-top: 2em;
+}
